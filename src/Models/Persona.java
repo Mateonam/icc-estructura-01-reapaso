@@ -21,15 +21,43 @@ public class Persona {
         this.edad = edad; // Asigna la edad pasada al atributo edad de la clase
     }
 
+    
+
     /**
      * Método para obtener la representación en cadena de texto de una instancia de
      * Persona.
      * 
      * @return Representación en String de la persona, mostrando su nombre y edad.
      */
+
+    
     @Override
     public String toString() {
         return nombre + " - " + edad; // Devuelve el nombre y la edad de la persona en formato String
+    }
+
+
+
+    public String getNombre() {
+        return nombre;
+    }
+
+
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+
+
+    public int getEdad() {
+        return edad;
+    }
+
+
+
+    public void setEdad(int edad) {
+        this.edad = edad;
     }
 
     // TODO: Agregar getters y setters para los atributos de la clase
